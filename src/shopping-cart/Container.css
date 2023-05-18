@@ -1,0 +1,153 @@
+.container {
+    background-color: #5eca75;
+  }
+  
+  .cart {
+    display: flex;
+    justify-content: right;
+    position: relative;
+  }
+  
+  .cart p {
+    font-size: 30px;
+    padding-right: 30px;
+  }
+  
+  .count {
+    background-color: #dadada;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    color: red;
+  }
+  
+  .product {
+    background-color: #000;
+    width: 15%;
+    height: 40vh;
+    color: #fff;
+    border-radius: 30px;
+    position: relative;
+    transition: width 0.5s, height 0.5s;
+  }
+  
+  .product img {
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin-top: 30px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    background-color: rgb(20, 20, 20);
+    border-radius: 150px;
+    transition: height 0.3s, opacity 0.3s, visibility 0s linear 0.3s;
+  }
+  
+  .info {
+    width: 100%;
+    border: none;
+    background-color: rgb(75, 77, 77);
+    border-radius: 145px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .info:hover {
+    border-radius: 30px;
+    height: 35vh;
+    transition: height 0.5s, opacity 0.5s, visibility 0s linear 0.5s;
+  }
+  
+  .info:hover .hidden {
+    opacity: 1;
+    transition: opacity 0.5s, visibility 0s linear 0.5s;
+  }
+  
+  .product:hover {
+    width: 17%;
+    height: 55vh;
+    transition: width 0.5s, height 0.5s, opacity 0.3s, visibility 0s linear 0.5s;
+  }
+  
+  .list-product {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .hidden {
+    height: 0;
+    opacity: 0;
+    background-color: transparent;
+    color: #fff;
+    transition: height 0.5s, opacity 0.5s, visibility 0s linear 0.5s;
+  }
+  
+  .product-name,
+  .active {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  table {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  tr th,
+  td {
+    width: 20%;
+  }
+  
+  .total,
+  .cart-active {
+    display: flex;
+    justify-content: right;
+    padding-right: 40px;
+    font-size: 20px;
+  }
+  
+  .pay {
+    font-size: 18px;
+    padding: 5px 25px;
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  
+  .clear {
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  
+  .add-btn {
+    background-color: gold;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+  }
+  
+  .thank-you {
+    color: gold;
+  }
+  
